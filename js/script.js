@@ -123,7 +123,6 @@
 
   $('#main-nav-toggle').on('click', function(){
     if (isMobileNavAnim) return;
-
     startMobileNavAnim();
     $container.toggleClass('mobile-nav-on');
     stopMobileNavAnim();
